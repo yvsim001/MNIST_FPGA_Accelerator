@@ -1,0 +1,8 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto aa8f1824739e416a97d4cb9b1ce3f163 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot myproject_tb_behav xil_defaultlib.myproject_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <myproject_axi_ap_fpext_1_no_dsp_32> not found while processing module instance <myproject_axi_ap_fpext_1_no_dsp_32_u> [/home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_fpext_32ns_64_3_1.v:33]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

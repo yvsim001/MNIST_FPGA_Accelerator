@@ -1,0 +1,91 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../camera_hdmi.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../camera_hdmi.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" --include "../../../../camera_hdmi.srcs/sources_1/bd/design_1/ipshared/798b/hdl" --include "../../../../camera_hdmi.srcs/sources_1/bd/design_1/ipshared/04f8/hdl/verilog" --include "../../../../camera_hdmi.srcs/sources_1/bd/design_1/ipshared/4fba" --include "/tools/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/Block_myproject_axi_exit34_proc.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/Loop_1_proc454.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/Loop_2_proc.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/compute_output_buffer_2d_array_array_ap_fixed_23_10_5_3_0_4u_config2_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_23_10_5_3_0_4u_config2_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_array_ap_ufixed_32u_array_ap_fixed_24_10_5_3_0_10u_config15_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_resource_rf_leq_nin_ap_fixed_ap_fixed_config2_mult_0_0_0_0_0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_resource_rf_leq_nin_ap_fixed_ap_fixed_config2_mult_0_0_0_0_0_w2_V.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_config6_mult_0_0_0_0_0_0_0_0_0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_config6_mult_0_0_0_0_0_0_0_0_0_wpcA.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_18_7_5_3_0_config11_s_w11_V.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_24_10_5_3_0_config15_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/dense_wrapper_ap_ufixed_6_0_4_0_0_ap_fixed_24_10_5_3_0_config15_s_w15_V.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w12_d100_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w12_d1_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w12_d2_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w12_d64_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w18_d1_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w19_d16_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w1_d2_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w23_d64_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w24_d1_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w31_d1_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w6_d16_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w6_d1_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w6_d36_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w6_d4_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/fifo_w6_d64_A.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_ashr_54ns_32ns_54_2_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_fpext_32ns_64_3_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_lshr_32ns_32ns_32_2_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mul_17ns_18s_24_2_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mul_18s_13s_29_2_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mul_mul_12s_6ns_18_3_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mul_mul_6s_12s_17_3_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_104_12_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_104_18_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_164_6_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_325_6_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_42_12_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_mux_646_6_1_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/myproject_axi_shl_64ns_32ns_64_2_1.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/normalize_array_ap_fixed_32u_array_ap_fixed_31_12_5_3_0_32u_config13_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/pooling2d_cl_array_ap_ufixed_4u_array_ap_ufixed_6_0_4_0_0_4u_config5_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/pooling2d_cl_array_ap_ufixed_4u_array_ap_ufixed_6_0_4_0_0_4u_config5_s_line_bdEe.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_6_0_4_0_0_8u_config9_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_6_0_4_0_0_8u_config9_s_line_bqcK.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/reduce_ap_fixed_18_8_0_0_0_4_Op_add_ap_fixed_18_8_0_0_0_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/regslice_core.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/relu_array_ap_fixed_32u_array_ap_ufixed_6_0_4_0_0_32u_relu_config14_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/relu_array_ap_fixed_4u_array_ap_ufixed_6_0_4_0_0_4u_relu_config4_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/relu_array_ap_fixed_8u_array_ap_ufixed_6_0_4_0_0_8u_relu_config8_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/shift_line_buffer_array_ap_fixed_12_4_5_3_0_1u_config2_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/shift_line_buffer_array_ap_fixed_12_4_5_3_0_1u_config2_s_line_buffer_Array_V_bkb.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/shift_line_buffer_array_ap_ufixed_6_0_4_0_0_4u_config6_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/shift_line_buffer_array_ap_ufixed_6_0_4_0_0_4u_config6_s_line_buffer_Array_V_hbi.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/softmax_array_array_ap_fixed_12_4_5_3_0_10u_softmax_config17_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/softmax_stable_array_array_ap_fixed_12_4_5_3_0_10u_softmax_config17_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/softmax_stable_array_array_ap_fixed_12_4_5_3_0_10u_softmax_config17_s_exp_tabyd2.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/softmax_stable_array_array_ap_fixed_12_4_5_3_0_10u_softmax_config17_s_invert_zec.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_Block_myproject_axi_exit34_proc_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_23_10_5_3_0_4u_config2_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_dense_array_ap_ufixed_32u_array_ap_fixed_24_10_5_3_0_10u_config15_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_myproject_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_normalize_array_ap_fixed_32u_array_ap_fixed_31_12_5_3_0_32u_config1CeG.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_pooling2d_cl_array_ap_ufixed_4u_array_ap_ufixed_6_0_4_0_0_4u_configAem.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_6_0_4_0_0_8u_configBew.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_relu_array_ap_fixed_32u_array_ap_ufixed_6_0_4_0_0_32u_relu_config14DeQ.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_relu_array_ap_fixed_4u_array_ap_ufixed_6_0_4_0_0_4u_relu_config4_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_relu_array_ap_fixed_8u_array_ap_ufixed_6_0_4_0_0_8u_relu_config8_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_softmax_array_array_ap_fixed_12_4_5_3_0_10u_softmax_config17_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/start_for_zeropad2d_cl_array_array_ap_ufixed_6_0_4_0_0_4u_config19_U0.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/zeropad2d_cl_array_ap_fixed_1u_array_ap_fixed_12_4_5_3_0_1u_config18_s.v" \
+"../../../../../Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/syn/verilog/zeropad2d_cl_array_array_ap_ufixed_6_0_4_0_0_4u_config19_s.v" \
+"../../../../../Téléchargements/myproject_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

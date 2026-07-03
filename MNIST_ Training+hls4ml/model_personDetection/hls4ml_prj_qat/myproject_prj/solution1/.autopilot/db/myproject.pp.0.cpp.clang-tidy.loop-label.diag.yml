@@ -1,0 +1,1216 @@
+---
+MainSourceFile:  /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          787014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          994534
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          994977
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          995421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1257416
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1607173
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1607548
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288101
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2288823
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289505
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289930
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2290383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2290428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2290837
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2291050
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2300555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2300639
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2301181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2301265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2304725
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2304978
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2305339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2306155
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2306816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2307950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_162_1:  '
+    FileOffset:      162
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2308312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_162_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_1:  '
+    FileOffset:      195
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2309215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_2:  '
+    FileOffset:      209
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2309734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_1:  '
+    FileOffset:      243
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2310574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_2:  '
+    FileOffset:      252
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2310844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_3:  '
+    FileOffset:      266
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2311368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2311602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2311962
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_323_1:  '
+    FileOffset:      323
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2312891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_323_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_2:  '
+    FileOffset:      328
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2313008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_329_3:  '
+    FileOffset:      329
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2313062
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_329_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_346_4:  '
+    FileOffset:      346
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2313643
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_346_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_359_1:  '
+    FileOffset:      359
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2314130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_359_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_2:  '
+    FileOffset:      367
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2314271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_402_1:  '
+    FileOffset:      402
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2315236
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_402_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_1:  '
+    FileOffset:      432
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2315873
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_459_1:  '
+    FileOffset:      459
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2316709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_459_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2317051
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_489_1:  '
+    FileOffset:      489
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2317509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_489_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_1:  '
+    FileOffset:      507
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2317979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_524_1:  '
+    FileOffset:      524
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2318382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_524_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_541_1:  '
+    FileOffset:      541
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2318777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_541_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_571_1:  '
+    FileOffset:      571
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2319443
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_571_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_590_1:  '
+    FileOffset:      590
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2320017
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_590_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_620_1:  '
+    FileOffset:      620
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2320683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_620_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_639_1:  '
+    FileOffset:      639
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2321237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_639_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_669_1:  '
+    FileOffset:      669
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2321886
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_669_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_696_1:  '
+    FileOffset:      696
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2322724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_696_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_725_1:  '
+    FileOffset:      725
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2323342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_725_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_746_1:  '
+    FileOffset:      746
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2323969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_746_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_764_1:  '
+    FileOffset:      764
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2324358
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_764_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_784_1:  '
+    FileOffset:      784
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2324754
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_784_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2326830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_2:  '
+    FileOffset:      80
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2326970
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_89_3:  '
+    FileOffset:      89
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2327235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_89_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_4:  '
+    FileOffset:      98
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2327429
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_5:  '
+    FileOffset:      102
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2327522
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_6:  '
+    FileOffset:      113
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2327848
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_7:  '
+    FileOffset:      117
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2327958
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_1:  '
+    FileOffset:      141
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2328908
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_2:  '
+    FileOffset:      145
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2328994
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_1:  '
+    FileOffset:      164
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2329654
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2335987
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_2:  '
+    FileOffset:      222
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2336271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_328_1:  '
+    FileOffset:      328
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2339484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_328_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_2:  '
+    FileOffset:      333
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2339626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_3:  '
+    FileOffset:      341
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2339830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368019
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_62_1:  '
+    FileOffset:      62
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_62_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_69_1:  '
+    FileOffset:      69
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_69_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_20_1:  '
+    FileOffset:      20
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406154
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_20_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_2:  '
+    FileOffset:      21
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406207
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_25_3:  '
+    FileOffset:      25
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406299
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_25_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_29_4:  '
+    FileOffset:      29
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_29_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_2:  '
+    FileOffset:      40
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406758
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_45_3:  '
+    FileOffset:      45
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_45_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_4:  '
+    FileOffset:      46
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2406905
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_5:  '
+    FileOffset:      51
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407014
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_52_6:  '
+    FileOffset:      52
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407070
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_52_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_75_1:  '
+    FileOffset:      75
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_75_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_77_2:  '
+    FileOffset:      77
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407879
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_77_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2407937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_4:  '
+    FileOffset:      83
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408048
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_5:  '
+    FileOffset:      84
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408108
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_87_6:  '
+    FileOffset:      87
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_87_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_7:  '
+    FileOffset:      90
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408331
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_95_8:  '
+    FileOffset:      95
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408442
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_95_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_9:  '
+    FileOffset:      96
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408503
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408879
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408933
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2408993
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409103
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_6:  '
+    FileOffset:      118
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409218
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_7:  '
+    FileOffset:      122
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409325
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_8:  '
+    FileOffset:      123
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409384
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_9:  '
+    FileOffset:      127
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409508
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_128_10:  '
+    FileOffset:      128
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409568
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_128_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_11:  '
+    FileOffset:      134
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_12:  '
+    FileOffset:      135
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409735
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_13:  '
+    FileOffset:      136
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2409795
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_11_1:  '
+    FileOffset:      11
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410314
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_11_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_padding_stream.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412400
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_1:  '
+    FileOffset:      96
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414490
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_98_2:  '
+    FileOffset:      98
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_98_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_103_3:  '
+    FileOffset:      103
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2414772
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_1:  '
+    FileOffset:      131
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2416059
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_2:  '
+    FileOffset:      134
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2416202
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2418404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_2:  '
+    FileOffset:      189
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2418461
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_3:  '
+    FileOffset:      191
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2418555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_198_4:  '
+    FileOffset:      198
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2418814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_198_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_5:  '
+    FileOffset:      200
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2418890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_241_1:  '
+    FileOffset:      241
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421265
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_241_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_2:  '
+    FileOffset:      243
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421416
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_4:  '
+    FileOffset:      251
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421672
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_5:  '
+    FileOffset:      253
+    FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2421748
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_5: '
+...

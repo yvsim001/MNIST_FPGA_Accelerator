@@ -1,0 +1,748 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:47:46 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tpg_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_tpg_0_3 (xilinx.com:ip:v_tpg:8.2) from (Rev. 2114664032) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_tpg_0_3'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 's_axi_CTRL_AWADDR'
+
+
+3. Customization warnings
+-------------------------
+
+Parameter 'latency' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '28'
+
+Parameter 'combinational' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '0'
+
+Parameter 'II' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '29 ~ 4296474606'
+
+Parameter 'clk_period' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '10'
+
+Parameter 'machine' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '64'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:v_tpg:8.2 -user_name design_1_v_tpg_0_3
+set_property -dict "\
+  CONFIG.Component_Name {design_1_v_tpg_0_3} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {s_axi_CTRL:m_axis_video} \
+  CONFIG.ap_clk.ASSOCIATED_PORT {} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.ap_clk.FREQ_HZ {74250000} \
+  CONFIG.ap_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.0} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.interrupt.PortWidth {1} \
+  CONFIG.interrupt.SENSITIVITY {LEVEL_HIGH} \
+  CONFIG.m_axis_video.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.m_axis_video.FREQ_HZ {74250000} \
+  CONFIG.m_axis_video.HAS_TKEEP {1} \
+  CONFIG.m_axis_video.HAS_TLAST {1} \
+  CONFIG.m_axis_video.HAS_TREADY {1} \
+  CONFIG.m_axis_video.HAS_TSTRB {1} \
+  CONFIG.m_axis_video.INSERT_VIP {0} \
+  CONFIG.m_axis_video.LAYERED_METADATA {undef} \
+  CONFIG.m_axis_video.PHASE {0.0} \
+  CONFIG.m_axis_video.TDATA_NUM_BYTES {3} \
+  CONFIG.m_axis_video.TDEST_WIDTH {1} \
+  CONFIG.m_axis_video.TID_WIDTH {1} \
+  CONFIG.m_axis_video.TUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.ADDR_WIDTH {8} \
+  CONFIG.s_axi_CTRL.ARUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.AWUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.BUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.s_axi_CTRL.DATA_WIDTH {32} \
+  CONFIG.s_axi_CTRL.FREQ_HZ {74250000} \
+  CONFIG.s_axi_CTRL.HAS_BRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_BURST {0} \
+  CONFIG.s_axi_CTRL.HAS_CACHE {0} \
+  CONFIG.s_axi_CTRL.HAS_LOCK {0} \
+  CONFIG.s_axi_CTRL.HAS_PROT {0} \
+  CONFIG.s_axi_CTRL.HAS_QOS {0} \
+  CONFIG.s_axi_CTRL.HAS_REGION {0} \
+  CONFIG.s_axi_CTRL.HAS_RRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_WSTRB {1} \
+  CONFIG.s_axi_CTRL.ID_WIDTH {0} \
+  CONFIG.s_axi_CTRL.INSERT_VIP {0} \
+  CONFIG.s_axi_CTRL.MAX_BURST_LENGTH {1} \
+  CONFIG.s_axi_CTRL.NUM_READ_OUTSTANDING {2} \
+  CONFIG.s_axi_CTRL.NUM_READ_THREADS {1} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_OUTSTANDING {2} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_THREADS {1} \
+  CONFIG.s_axi_CTRL.PHASE {0.0} \
+  CONFIG.s_axi_CTRL.PROTOCOL {AXI4LITE} \
+  CONFIG.s_axi_CTRL.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s_axi_CTRL.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.RUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s_axi_CTRL.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.WUSER_WIDTH {0} " [get_ips design_1_v_tpg_0_3]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:37:40 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:33:28 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tpg_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_tpg_0_3 (xilinx.com:ip:v_tpg:8.2) from (Rev. 5) to (Rev. 2114664032)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_tpg_0_3'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 's_axi_CTRL_ARADDR'
+
+
+3. Customization warnings
+-------------------------
+
+Parameter 'SAMPLES_PER_CLOCK' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'MAX_COLS' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '4096'
+
+Parameter 'MAX_ROWS' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '2160'
+
+Parameter 'MAX_DATA_WIDTH' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '8'
+
+Parameter 'NUM_VIDEO_COMPONENTS' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '3'
+
+Parameter 'HAS_AXI4S_SLAVE' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '0'
+
+Parameter 'HAS_AXI4_YUV422_YUV420' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '0'
+
+Parameter 'SOLID_COLOR' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'RAMP' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'COLOR_BAR' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'DISPLAY_PORT' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'COLOR_SWEEP' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'ZONE_PLATE' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+Parameter 'FOREGROUND' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '1'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:v_tpg:8.2 -user_name design_1_v_tpg_0_3
+set_property -dict "\
+  CONFIG.Component_Name {design_1_v_tpg_0_3} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {s_axi_CTRL:m_axis_video} \
+  CONFIG.ap_clk.ASSOCIATED_PORT {} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {} \
+  CONFIG.ap_clk.FREQ_HZ {74250000} \
+  CONFIG.ap_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.0} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.interrupt.PortWidth {1} \
+  CONFIG.interrupt.SENSITIVITY {LEVEL_HIGH} \
+  CONFIG.m_axis_video.CLK_DOMAIN {} \
+  CONFIG.m_axis_video.FREQ_HZ {100000000} \
+  CONFIG.m_axis_video.HAS_TKEEP {1} \
+  CONFIG.m_axis_video.HAS_TLAST {1} \
+  CONFIG.m_axis_video.HAS_TREADY {1} \
+  CONFIG.m_axis_video.HAS_TSTRB {1} \
+  CONFIG.m_axis_video.INSERT_VIP {0} \
+  CONFIG.m_axis_video.LAYERED_METADATA {undef} \
+  CONFIG.m_axis_video.PHASE {0.0} \
+  CONFIG.m_axis_video.TDATA_NUM_BYTES {3} \
+  CONFIG.m_axis_video.TDEST_WIDTH {1} \
+  CONFIG.m_axis_video.TID_WIDTH {1} \
+  CONFIG.m_axis_video.TUSER_WIDTH {1} \
+  CONFIG.s_axi_CTRL.ADDR_WIDTH {8} \
+  CONFIG.s_axi_CTRL.ARUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.AWUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.BUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.CLK_DOMAIN {} \
+  CONFIG.s_axi_CTRL.DATA_WIDTH {32} \
+  CONFIG.s_axi_CTRL.FREQ_HZ {100000000} \
+  CONFIG.s_axi_CTRL.HAS_BRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_BURST {0} \
+  CONFIG.s_axi_CTRL.HAS_CACHE {0} \
+  CONFIG.s_axi_CTRL.HAS_LOCK {0} \
+  CONFIG.s_axi_CTRL.HAS_PROT {0} \
+  CONFIG.s_axi_CTRL.HAS_QOS {0} \
+  CONFIG.s_axi_CTRL.HAS_REGION {0} \
+  CONFIG.s_axi_CTRL.HAS_RRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_WSTRB {1} \
+  CONFIG.s_axi_CTRL.ID_WIDTH {0} \
+  CONFIG.s_axi_CTRL.INSERT_VIP {0} \
+  CONFIG.s_axi_CTRL.MAX_BURST_LENGTH {1} \
+  CONFIG.s_axi_CTRL.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s_axi_CTRL.NUM_READ_THREADS {1} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_THREADS {1} \
+  CONFIG.s_axi_CTRL.PHASE {0.0} \
+  CONFIG.s_axi_CTRL.PROTOCOL {AXI4LITE} \
+  CONFIG.s_axi_CTRL.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s_axi_CTRL.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.RUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s_axi_CTRL.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.WUSER_WIDTH {0} " [get_ips design_1_v_tpg_0_3]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:33:28 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:33:08 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_1 (xilinx.com:ip:xlconstant:1.1) from (Rev. 6) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 6) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tpg_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_tpg_0_3 (xilinx.com:ip:v_tpg:8.2) from (Rev. 2114664520) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_tpg_0_3'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 's_axi_CTRL_AWADDR'
+
+
+3. Customization warnings
+-------------------------
+
+Parameter 'latency' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '27'
+
+Parameter 'combinational' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '0'
+
+Parameter 'II' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '28 ~ 4296409071'
+
+Parameter 'clk_period' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '13.468'
+
+Parameter 'machine' is no longer present on the upgraded IP 'design_1_v_tpg_0_3', and cannot be set to '64'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:v_tpg:8.2 -user_name design_1_v_tpg_0_3
+set_property -dict "\
+  CONFIG.Component_Name {design_1_v_tpg_0_3} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {s_axi_CTRL:m_axis_video} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.ap_clk.FREQ_HZ {74250000} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.0} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.interrupt.PortWidth {1} \
+  CONFIG.interrupt.SENSITIVITY {LEVEL_HIGH} \
+  CONFIG.m_axis_video.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.m_axis_video.FREQ_HZ {74250000} \
+  CONFIG.m_axis_video.HAS_TKEEP {1} \
+  CONFIG.m_axis_video.HAS_TLAST {1} \
+  CONFIG.m_axis_video.HAS_TREADY {1} \
+  CONFIG.m_axis_video.HAS_TSTRB {1} \
+  CONFIG.m_axis_video.INSERT_VIP {0} \
+  CONFIG.m_axis_video.LAYERED_METADATA {undef} \
+  CONFIG.m_axis_video.PHASE {0.0} \
+  CONFIG.m_axis_video.TDATA_NUM_BYTES {3} \
+  CONFIG.m_axis_video.TDEST_WIDTH {1} \
+  CONFIG.m_axis_video.TID_WIDTH {1} \
+  CONFIG.m_axis_video.TUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.ADDR_WIDTH {8} \
+  CONFIG.s_axi_CTRL.ARUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.AWUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.BUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.s_axi_CTRL.DATA_WIDTH {32} \
+  CONFIG.s_axi_CTRL.FREQ_HZ {74250000} \
+  CONFIG.s_axi_CTRL.HAS_BRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_BURST {0} \
+  CONFIG.s_axi_CTRL.HAS_CACHE {0} \
+  CONFIG.s_axi_CTRL.HAS_LOCK {0} \
+  CONFIG.s_axi_CTRL.HAS_PROT {0} \
+  CONFIG.s_axi_CTRL.HAS_QOS {0} \
+  CONFIG.s_axi_CTRL.HAS_REGION {0} \
+  CONFIG.s_axi_CTRL.HAS_RRESP {1} \
+  CONFIG.s_axi_CTRL.HAS_WSTRB {1} \
+  CONFIG.s_axi_CTRL.ID_WIDTH {0} \
+  CONFIG.s_axi_CTRL.INSERT_VIP {0} \
+  CONFIG.s_axi_CTRL.MAX_BURST_LENGTH {1} \
+  CONFIG.s_axi_CTRL.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s_axi_CTRL.NUM_READ_THREADS {1} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s_axi_CTRL.NUM_WRITE_THREADS {1} \
+  CONFIG.s_axi_CTRL.PHASE {0.0} \
+  CONFIG.s_axi_CTRL.PROTOCOL {AXI4LITE} \
+  CONFIG.s_axi_CTRL.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s_axi_CTRL.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.RUSER_WIDTH {0} \
+  CONFIG.s_axi_CTRL.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s_axi_CTRL.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_CTRL.WUSER_WIDTH {0} " [get_ips design_1_v_tpg_0_3]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_v_tc_0_0 (xilinx.com:ip:v_tc:6.2) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 10) to (Rev. 18)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sof_state_out'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 13) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_clk_wiz_0_1 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 4) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1) from (Rev. 20) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_dwidth_converter_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axis_dwidth_converter_0_1 (xilinx.com:ip:axis_dwidth_converter:1.1) from (Rev. 19) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axis_dwidth_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axis_dwidth_converter_0_0 (xilinx.com:ip:axis_dwidth_converter:1.1) from (Rev. 19) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 8) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_2_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 21) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_1_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 21) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_interconnect_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_interconnect_0_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 21) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Jul  2 22:31:35 2026
+| Host         : VALDERSYM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_dma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_axi_dma_0_0 (xilinx.com:ip:axi_dma:7.1) from (Rev. 21) to (Rev. 32)
+

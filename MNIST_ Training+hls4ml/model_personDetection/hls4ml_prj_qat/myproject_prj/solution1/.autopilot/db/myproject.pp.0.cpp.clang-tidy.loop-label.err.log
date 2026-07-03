@@ -1,0 +1,5 @@
+5 warnings and 3 errors generated.
+Error while processing /home/yvan/Bureau/Projekt/PA2/MNIST/model_personDetection/hls4ml_prj_qat/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp.
+clang-tidy applied 133 of 133 suggested fixes.
+Suppressed 253 warnings (248 in non-user code, 5 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

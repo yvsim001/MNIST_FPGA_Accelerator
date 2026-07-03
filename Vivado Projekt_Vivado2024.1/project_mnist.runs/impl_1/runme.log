@@ -1,0 +1,1053 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Jul  2 23:05:37 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 615.598 ; gain = 202.777
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/work/model_personDetection/hls4ml_prj_qat'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/yvan2/Downloads/vivado-library-master/vivado-library-master'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/VIVADO/Vivado/2024.1/data/ip'.
+Command: link_design -top design_1_wrapper -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.976 . Memory (MB): peak = 1185.336 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2071 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'design_1_i/axi_vdma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:68]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:72]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:76]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:80]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:84]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:88]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:92]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:96]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:100]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-4' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:104]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:108]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:192]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:196]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:200]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:204]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:208]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:212]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:216]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-6' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc:220]
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0.xdc] for cell 'design_1_i/axi_vdma_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc:50]
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PART_PIN', because the property does not exist for objects of type 'pin'. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_board.xdc:3]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1.xdc:54]
+INFO: [Timing 38-2] Deriving generated clocks [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1.xdc:54]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:37 . Memory (MB): peak = 1981.855 ; gain = 617.434
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_1/design_1_clk_wiz_0_1.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_rgb2dvi_0_1/src/rgb2dvi.xdc] for cell 'design_1_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_rgb2dvi_0_1/src/rgb2dvi.xdc] for cell 'design_1_i/rgb2dvi_0/U0'
+Parsing XDC File [C:/Users/yvan2/Downloads/base.xdc]
+WARNING: [Vivado 12-584] No ports matched 'hdmi_out_hpd[0]'. [C:/Users/yvan2/Downloads/base.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yvan2/Downloads/base.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_out_ddc_scl_io'. [C:/Users/yvan2/Downloads/base.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yvan2/Downloads/base.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_out_ddc_sda_io'. [C:/Users/yvan2/Downloads/base.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/yvan2/Downloads/base.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/yvan2/Downloads/base.xdc]
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'design_1_i/axi_vdma_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_vdma_0_0/design_1_axi_vdma_0_0_clocks.xdc] for cell 'design_1_i/axi_vdma_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'design_1_i/v_axi4s_vid_out_0/inst'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_clocks.xdc] for cell 'design_1_i/v_axi4s_vid_out_0/inst'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_tpg_0_3/design_1_v_tpg_0_3.xdc] for cell 'design_1_i/v_tpg_0/inst'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_tpg_0_3/design_1_v_tpg_0_3.xdc] for cell 'design_1_i/v_tpg_0/inst'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'design_1_v_tc_0_0'. The XDC file c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_0_1/design_1_v_tc_0_0_clocks.xdc will not be read for any cell of this module.
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_1/design_1_v_tc_0_1_clocks.xdc] for cell 'design_1_i/v_tc_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_v_tc_0_1/design_1_v_tc_0_1_clocks.xdc] for cell 'design_1_i/v_tc_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_rgb2dvi_0_1/src/rgb2dvi_clocks.xdc] for cell 'design_1_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_rgb2dvi_0_1/src/rgb2dvi_clocks.xdc] for cell 'design_1_i/rgb2dvi_0/U0'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:9]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:12]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:15]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:18]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:21]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:24]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:27]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:33]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:36]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:39]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:42]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:45]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:48]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:51]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc:54]
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:9]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:12]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:15]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:18]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:21]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:24]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:27]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:33]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:36]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:39]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:42]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-10' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:45]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-2' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:48]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:51]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-11' -to list should not be empty. [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc:54]
+Finished Parsing XDC File [c:/work/project_mnist/project_mnist.srcs/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_clocks.xdc] for cell 'design_1_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+INFO: [Project 1-1714] 18 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 31 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1988.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 7 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+
+16 Infos, 56 Warnings, 5 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:27 ; elapsed = 00:01:00 . Memory (MB): peak = 1988.152 ; gain = 1315.453
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1988.152 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1988.152 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2335.777 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 2335.777 ; gain = 0.000
+Phase 1 Initialization | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2335.777 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2366.871 ; gain = 31.094
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Phase 2 Timer Update And Timing Data Collection | Checksum: 2095ad132
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2366.871 ; gain = 31.094
+
+Phase 3 Retarget
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 7 inverters resulting in an inversion of 67 pins
+INFO: [Opt 31-138] Pushed 6 inverter(s) to 21 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1d7f0dc37
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Retarget | Checksum: 1d7f0dc37
+INFO: [Opt 31-389] Phase Retarget created 71 cells and removed 413 cells
+INFO: [Opt 31-1021] In phase Retarget, 54 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 201623e67
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Constant propagation | Checksum: 201623e67
+INFO: [Opt 31-389] Phase Constant propagation created 190 cells and removed 542 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 54 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1e93ffc9f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Sweep | Checksum: 1e93ffc9f
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 142 cells
+INFO: [Opt 31-1021] In phase Sweep, 258 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG design_1_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG_inst to drive 8 load(s) on clock net design_1_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/PixelClk_BUFG
+INFO: [Opt 31-194] Inserted BUFG design_1_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG_inst to drive 8 load(s) on clock net design_1_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/SerialClk_BUFG
+INFO: [Opt 31-193] Inserted 2 BUFG(s) on clock nets
+Phase 6 BUFG optimization | Checksum: 16fa097c3
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2366.871 ; gain = 31.094
+BUFG optimization | Checksum: 16fa097c3
+INFO: [Opt 31-662] Phase BUFG optimization created 2 cells of which 2 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 21fecb835
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Shift Register Optimization | Checksum: 21fecb835
+INFO: [Opt 31-389] Phase Shift Register Optimization created 5 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 21fecb835
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Post Processing Netlist | Checksum: 21fecb835
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 66 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 11e5b3141
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2366.871 ; gain = 31.094
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 2366.871 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 11e5b3141
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Phase 9 Finalization | Checksum: 11e5b3141
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2366.871 ; gain = 31.094
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              71  |             413  |                                             54  |
+|  Constant propagation         |             190  |             542  |                                             54  |
+|  Sweep                        |               0  |             142  |                                            258  |
+|  BUFG optimization            |               2  |               0  |                                              0  |
+|  Shift Register Optimization  |               5  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             66  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 11e5b3141
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2366.871 ; gain = 31.094
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 36 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 3 WE to EN ports
+Number of BRAM Ports augmented: 28 newly gated: 8 Total Ports: 72
+Number of Flops added for Enable Generation: 10
+
+Ending PowerOpt Patch Enables Task | Checksum: 245cb9f2d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.219 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 245cb9f2d
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 2826.852 ; gain = 459.980
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 152f6fde6
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:04 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 152f6fde6
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 152f6fde6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+48 Infos, 56 Warnings, 5 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 2826.852 ; gain = 838.699
+INFO: [Vivado 12-24828] Executing command : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+Command: report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2826.852 ; gain = 0.000
+generate_parallel_reports: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Writing XDEF routing.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.203 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: ed14ba0b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 12390b12d
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: fd4b4471
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: fd4b4471
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: fd4b4471
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 10f9ef4f5
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:31 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: c45ce5f8
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: c45ce5f8
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 13f1da519
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:49 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 914 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 371 nets or LUTs. Breaked 0 LUT, combined 371 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            371  |                   371  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            371  |                   371  |           0  |           4  |  00:00:01  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1c8c6b56d
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:57 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: 1931bb3a6
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 1931bb3a6
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:58 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 15541f487
+
+Time (s): cpu = 00:00:48 ; elapsed = 00:01:05 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1151b1ca1
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:01:09 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1d4b16293
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:01:10 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 107a818d1
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:01:10 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 23260db84
+
+Time (s): cpu = 00:01:01 ; elapsed = 00:01:19 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1c803e227
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:20 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 24995826a
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:21 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 24995826a
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:21 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1ba5d6c12
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.267 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1b3fe441d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Place 46-33] Processed net design_1_i/myproject_0/inst/relu_array_ap_fixed_32u_array_ap_ufixed_6_0_4_0_0_32u_relu_config14_U0/Q[0], BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-33] Processed net design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/push, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 2 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 2, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 133d4b049
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1ba5d6c12
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=1.267. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 190a52f32
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 190a52f32
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:01:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 190a52f32
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                4x4|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                2x2|                4x4|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 190a52f32
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 190a52f32
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2826.852 ; gain = 0.000
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:33 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1f9b1d5fc
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:01:34 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Ending Placer Task | Checksum: 136ff1338
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:01:34 . Memory (MB): peak = 2826.852 ; gain = 0.000
+85 Infos, 56 Warnings, 5 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:24 ; elapsed = 00:01:38 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_io -file design_1_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_placed.rpt -pb design_1_wrapper_utilization_placed.pb
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.147 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 1.267 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+96 Infos, 56 Warnings, 5 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.137 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2826.852 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2826.852 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 5647f8e0 ConstDB: 0 ShapeSum: cabda768 RouteDB: 15f972f0
+Post Restoration Checksum: NetGraph: 74d4467b | NumContArr: 251449ff | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 21f3a85b4
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 2832.441 ; gain = 5.590
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 21f3a85b4
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 2832.441 ; gain = 5.590
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 21f3a85b4
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2832.441 ; gain = 5.590
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 349d807d1
+
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 2861.863 ; gain = 35.012
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.375  | TNS=0.000  | WHS=-2.348 | THS=-551.988|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 38478
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 38477
+  Number of Partially Routed Nets     = 1
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 34caae19e
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 2999.020 ; gain = 172.168
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 34caae19e
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 2999.020 ; gain = 172.168
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 1ae78533a
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 2999.020 ; gain = 172.168
+Phase 4 Initial Routing | Checksum: 1ae78533a
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 2999.020 ; gain = 172.168
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 2192
+ Number of Nodes with overlaps = 170
+ Number of Nodes with overlaps = 28
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.569  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Global Iteration 0 | Checksum: 1bf29b8a8
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:20 . Memory (MB): peak = 3024.285 ; gain = 197.434
+
+Phase 5.2 Global Iteration 1
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.569  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.2 Global Iteration 1 | Checksum: 23c5c3739
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:21 . Memory (MB): peak = 3027.168 ; gain = 200.316
+Phase 5 Rip-up And Reroute | Checksum: 23c5c3739
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:01:21 . Memory (MB): peak = 3027.168 ; gain = 200.316
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 208b684cf
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:23 . Memory (MB): peak = 3027.168 ; gain = 200.316
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.569  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 6.1 Delay CleanUp | Checksum: 208b684cf
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:23 . Memory (MB): peak = 3027.168 ; gain = 200.316
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 208b684cf
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:23 . Memory (MB): peak = 3027.168 ; gain = 200.316
+Phase 6 Delay and Skew Optimization | Checksum: 208b684cf
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:23 . Memory (MB): peak = 3027.168 ; gain = 200.316
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.569  | TNS=0.000  | WHS=-0.795 | THS=-0.795 |
+
+
+Phase 7.1.1 Lut RouteThru Assignment for hold
+Phase 7.1.1 Lut RouteThru Assignment for hold | Checksum: 2df799a44
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:26 . Memory (MB): peak = 3063.289 ; gain = 236.438
+Phase 7.1 Hold Fix Iter | Checksum: 2df799a44
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:26 . Memory (MB): peak = 3063.289 ; gain = 236.438
+
+Phase 7.2 Additional Hold Fix
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.569  | TNS=0.000  | WHS=-0.795 | THS=-0.795 |
+
+Phase 7.2 Additional Hold Fix | Checksum: 29d479e91
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:01:29 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 7.3 Non Free Resource Hold Fix Iter
+Phase 7.3 Non Free Resource Hold Fix Iter | Checksum: 2a5850bbb
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:30 . Memory (MB): peak = 3063.328 ; gain = 236.477
+Phase 7 Post Hold Fix | Checksum: 2a5850bbb
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:30 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 8.53169 %
+  Global Horizontal Routing Utilization  = 12.0077 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 2a5850bbb
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:30 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 2a5850bbb
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:30 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 1dc743b6e
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:32 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 11 Post Process Routing
+WARNING: [Route 35-419] Router was unable to fix hold violation on pin design_1_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/DIADI[26] driven by global clock buffer BUFGCTRL_X0Y0.
+Resolution: Run report_timing_summary to analyze the hold violations.
+Phase 11 Post Process Routing | Checksum: 1dc743b6e
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:32 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Phase 12 Post Router Timing
+
+Phase 12.1 Update Timing
+Phase 12.1 Update Timing | Checksum: 1dc743b6e
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:34 . Memory (MB): peak = 3063.328 ; gain = 236.477
+INFO: [Route 35-57] Estimated Timing Summary | WNS=1.569  | TNS=0.000  | WHS=-0.795 | THS=-0.795 |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 12 Post Router Timing | Checksum: 1dc743b6e
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:34 . Memory (MB): peak = 3063.328 ; gain = 236.477
+Total Elapsed time in route_design: 94.19 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: 1f42fefce
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:35 . Memory (MB): peak = 3063.328 ; gain = 236.477
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 1f42fefce
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:35 . Memory (MB): peak = 3063.328 ; gain = 236.477
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+112 Infos, 58 Warnings, 5 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:00 ; elapsed = 00:01:49 . Memory (MB): peak = 3063.328 ; gain = 236.477
+INFO: [Vivado 12-24828] Executing command : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+Command: report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3063.328 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 3090.387 ; gain = 27.059
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 3091.633 ; gain = 1.246
+INFO: [Vivado 12-24838] Running report commands "report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file design_1_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file design_1_wrapper_route_status.rpt -pb design_1_wrapper_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+129 Infos, 59 Warnings, 6 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3130.254 ; gain = 32.418
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file design_1_wrapper_clock_utilization_routed.rpt
+WARNING: [Device 21-9320] Failed to find the Oracle tile group with name 'HSR_BOUNDARY_TOP'. This is required for Clock regions and Virtual grid.
+WARNING: [Device 21-2174] Failed to initialize Virtual grid.
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file design_1_wrapper_bus_skew_routed.rpt -pb design_1_wrapper_bus_skew_routed.pb -rpx design_1_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+generate_parallel_reports: Time (s): cpu = 00:00:56 ; elapsed = 00:00:46 . Memory (MB): peak = 3131.844 ; gain = 68.516
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.114 . Memory (MB): peak = 3160.812 ; gain = 18.758
+Wrote PlaceDB: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 3165.395 ; gain = 23.227
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3165.395 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.402 . Memory (MB): peak = 3165.395 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 3165.395 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 3165.395 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 3165.395 ; gain = 23.227
+INFO: [Common 17-1381] The checkpoint 'C:/work/project_mnist/project_mnist.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/v_axi4s_vid_out_0/inst/COUPLER_INST/generate_sync_fifo.FIFO_INST/XPM_FIFO_SYNC_INST/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/v_axi4s_vid_out_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_vdma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_vdma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_vdma_0/U0/GEN_SPRT_FOR_S2MM.S2MM_LINEBUFFER_I/GEN_S2MM_FLUSH_SOF_LOGIC.GEN_LINEBUFFER_FLUSH_SOF.GEN_SYNC_FIFO_FLUSH_SOF.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_vdma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_vdma_0/U0/GEN_SPRT_FOR_MM2S.MM2S_LINEBUFFER_I/GEN_LINEBUF_NO_SOF.GEN_LINEBUFFER.GEN_SYNC_FIFO.I_LINEBUFFER_FIFO/xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_vdma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <design_1_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force design_1_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_12_reg_3061_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_12_reg_3061_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_13_reg_3066_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_13_reg_3066_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_16_reg_3071_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_16_reg_3071_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_17_reg_3076_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_17_reg_3076_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_1_reg_3036_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_1_reg_3036_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_20_reg_3081_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_20_reg_3081_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_21_reg_3086_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_21_reg_3086_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_24_reg_3091_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_24_reg_3091_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_25_reg_3096_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_25_reg_3096_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_28_reg_3101_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_28_reg_3101_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_29_reg_3106_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_29_reg_3106_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_4_reg_3041_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_4_reg_3041_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_5_reg_3046_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_5_reg_3046_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_8_reg_3051_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_8_reg_3051_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_9_reg_3056_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_9_reg_3056_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_reg_3031_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_reg_3031_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_163_reg_2520_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_163_reg_2520_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_165_reg_2525_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_165_reg_2525_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_167_reg_2530_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_167_reg_2530_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_169_reg_2535_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_169_reg_2535_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_171_reg_2540_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_171_reg_2540_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_173_reg_2545_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_173_reg_2545_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_175_reg_2550_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_175_reg_2550_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_177_reg_2555_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_177_reg_2555_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_179_reg_2560_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_179_reg_2560_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_reg_2515_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_reg_2515_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_102_reg_8186_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_102_reg_8186_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_103_reg_8191_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_103_reg_8191_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_106_reg_8196_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_106_reg_8196_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_107_reg_8201_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_107_reg_8201_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_110_reg_8206_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_110_reg_8206_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_111_reg_8211_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_111_reg_8211_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_114_reg_8216_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_114_reg_8216_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_115_reg_8221_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_115_reg_8221_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_118_reg_8226_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_118_reg_8226_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_119_reg_8231_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_119_reg_8231_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_122_reg_8236_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_122_reg_8236_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_123_reg_8241_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_123_reg_8241_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_126_reg_8246_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_126_reg_8246_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_127_reg_8251_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_127_reg_8251_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_130_reg_8256_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_130_reg_8256_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_131_reg_8261_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_131_reg_8261_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_134_reg_8266_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_134_reg_8266_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_135_reg_8271_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_135_reg_8271_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_138_reg_8276_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_138_reg_8276_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_139_reg_8281_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_139_reg_8281_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_142_reg_8286_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_142_reg_8286_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_143_reg_8291_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_143_reg_8291_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_146_reg_8296_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_146_reg_8296_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_147_reg_8301_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_147_reg_8301_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_150_reg_8306_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_150_reg_8306_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_151_reg_8311_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_151_reg_8311_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_154_reg_8316_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_154_reg_8316_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_155_reg_8321_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_155_reg_8321_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_158_reg_8326_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_158_reg_8326_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_159_reg_8331_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_159_reg_8331_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_35_reg_8021_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_35_reg_8021_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_38_reg_8026_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_38_reg_8026_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_39_reg_8031_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_39_reg_8031_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_42_reg_8036_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_42_reg_8036_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_43_reg_8041_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_43_reg_8041_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_46_reg_8046_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_46_reg_8046_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_47_reg_8051_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_47_reg_8051_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_50_reg_8056_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_50_reg_8056_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_51_reg_8061_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_51_reg_8061_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_54_reg_8066_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_54_reg_8066_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_55_reg_8071_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_55_reg_8071_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_58_reg_8076_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_58_reg_8076_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_59_reg_8081_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_59_reg_8081_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_62_reg_8086_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_62_reg_8086_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_63_reg_8091_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_63_reg_8091_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_66_reg_8096_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_66_reg_8096_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_67_reg_8101_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_67_reg_8101_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_70_reg_8106_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_70_reg_8106_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_71_reg_8111_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_71_reg_8111_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_74_reg_8116_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_74_reg_8116_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_75_reg_8121_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_75_reg_8121_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_78_reg_8126_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_78_reg_8126_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_79_reg_8131_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_79_reg_8131_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_82_reg_8136_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_82_reg_8136_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_83_reg_8141_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_83_reg_8141_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_86_reg_8146_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_86_reg_8146_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_87_reg_8151_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_87_reg_8151_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_90_reg_8156_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_90_reg_8156_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_91_reg_8161_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_91_reg_8161_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_94_reg_8166_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_94_reg_8166_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_95_reg_8171_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_95_reg_8171_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_98_reg_8176_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_98_reg_8176_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_99_reg_8181_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_99_reg_8181_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_reg_8016_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_reg_8016_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg input design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg input design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_16s_16s_16ns_16_4_1_U41/design_1_v_tpg_0_3_mac_muladd_16s_16s_16ns_16_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_16s_16s_16ns_16_4_1_U41/design_1_v_tpg_0_3_mac_muladd_16s_16s_16ns_16_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_5ns_16ns_17_4_1_U48/design_1_v_tpg_0_3_mac_muladd_8ns_5ns_16ns_17_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_5ns_16ns_17_4_1_U48/design_1_v_tpg_0_3_mac_muladd_8ns_5ns_16ns_17_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-1] Input pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8ns_15ns_16_4_1_U46/design_1_v_tpg_0_3_mac_muladd_8ns_8ns_15ns_16_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8ns_15ns_16_4_1_U46/design_1_v_tpg_0_3_mac_muladd_8ns_8ns_15ns_16_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-1] PREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg multiplier stage design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg multiplier stage design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg multiplier stage design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-2] MREG Output pipelining: DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A2' of cell design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A3' of cell design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A5)*A2)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A6)+((~A6)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A5' of cell design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A2)+((~A2)*(~A6)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC PDCN-1569] LUT equation term check: Used physical LUT pin 'A6' of cell design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1 (pin design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gpregsm1.user_valid_i_1/I1) is not included in the LUT equation: 'O6=(A1)+((~A1)*(~A4)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+WARNING: [DRC RTSTAT-10] No routable loads: 66 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg[2:0], design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0], design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg[2:0]... and (the first 15 of 42 listed).
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-165] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 117 Warnings, 6 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_1_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+159 Infos, 178 Warnings, 6 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 3591.957 ; gain = 426.562
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 23:12:59 2026...

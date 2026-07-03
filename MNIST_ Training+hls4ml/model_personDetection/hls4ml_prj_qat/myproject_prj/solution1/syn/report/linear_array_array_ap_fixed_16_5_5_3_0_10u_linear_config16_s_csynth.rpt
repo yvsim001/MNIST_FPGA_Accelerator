@@ -1,0 +1,141 @@
+
+
+================================================================
+== Vitis HLS Report for 'linear_array_array_ap_fixed_16_5_5_3_0_10u_linear_config16_s'
+================================================================
+* Date:           Thu Jul  2 23:53:19 2026
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.650 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|      2|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     36|    -|
+|Register         |        -|    -|       3|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|       3|     38|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+----+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |Total            |          |   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------+----+-----------+-----+-----------+
+    |        Name       | LUT| Input Size| Bits| Total Bits|
+    +-------------------+----+-----------+-----+-----------+
+    |ap_done            |   9|          2|    1|          2|
+    |layer15_out_blk_n  |   9|          2|    1|          2|
+    |layer16_out_blk_n  |   9|          2|    1|          2|
+    |real_start         |   9|          2|    1|          2|
+    +-------------------+----+-----------+-----+-----------+
+    |Total              |  36|          8|    4|          8|
+    +-------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+---+----+-----+-----------+
+    |      Name      | FF| LUT| Bits| Const Bits|
+    +----------------+---+----+-----+-----------+
+    |ap_CS_fsm       |  1|   0|    1|          0|
+    |ap_done_reg     |  1|   0|    1|          0|
+    |start_once_reg  |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+    |Total           |  3|   0|    3|          0|
+    +----------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+---------------------------------------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |                         Source Object                         |    C Type    |
++----------------------------+-----+-----+------------+---------------------------------------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|start_full_n                |   in|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_continue                 |   in|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|start_out                   |  out|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|start_write                 |  out|    1|  ap_ctrl_hs|  linear<array,array<ap_fixed<16,5,5,3,0>,10u>,linear_config16>|  return value|
+|layer15_out_dout            |   in|  160|     ap_fifo|                                                    layer15_out|       pointer|
+|layer15_out_num_data_valid  |   in|    2|     ap_fifo|                                                    layer15_out|       pointer|
+|layer15_out_fifo_cap        |   in|    2|     ap_fifo|                                                    layer15_out|       pointer|
+|layer15_out_empty_n         |   in|    1|     ap_fifo|                                                    layer15_out|       pointer|
+|layer15_out_read            |  out|    1|     ap_fifo|                                                    layer15_out|       pointer|
+|layer16_out_din             |  out|  160|     ap_fifo|                                                    layer16_out|       pointer|
+|layer16_out_num_data_valid  |   in|    2|     ap_fifo|                                                    layer16_out|       pointer|
+|layer16_out_fifo_cap        |   in|    2|     ap_fifo|                                                    layer16_out|       pointer|
+|layer16_out_full_n          |   in|    1|     ap_fifo|                                                    layer16_out|       pointer|
+|layer16_out_write           |  out|    1|     ap_fifo|                                                    layer16_out|       pointer|
++----------------------------+-----+-----+------------+---------------------------------------------------------------+--------------+
+

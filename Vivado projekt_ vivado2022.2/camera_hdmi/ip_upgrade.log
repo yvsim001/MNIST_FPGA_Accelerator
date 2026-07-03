@@ -1,0 +1,16 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Thu Jul  2 23:54:08 2026
+| Host         : yvan-B550-GAMING-X-V2 running 64-bit Ubuntu 22.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myproject_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_myproject_0_1 (xilinx.com:hls:myproject:1.0) to Vivado generation flows.
+

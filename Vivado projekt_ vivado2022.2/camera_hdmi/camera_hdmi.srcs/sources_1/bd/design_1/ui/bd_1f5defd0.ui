@@ -1,0 +1,70 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.675874",
+   "Default View_TopLeft":"861,503",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 9 -x 3390 -y 600 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 9 -x 3390 -y 620 -defaultsOSRD
+preplace port TMDS_Clk_p_0 -pg 1 -lvl 9 -x 3390 -y 900 -defaultsOSRD
+preplace port TMDS_Clk_n_0 -pg 1 -lvl 9 -x 3390 -y 920 -defaultsOSRD
+preplace portBus TMDS_Data_p_0 -pg 1 -lvl 9 -x 3390 -y 940 -defaultsOSRD
+preplace portBus TMDS_Data_n_0 -pg 1 -lvl 9 -x 3390 -y 960 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 8 -x 3130 -y 640 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 6 -x 2290 -y 330 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 8 -x 3130 -y 920 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -x 2290 -y 690 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 7 -x 2740 -y 960 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 270 -y 880 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 7 -x 2740 -y 640 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 7 -x 2740 -y 360 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -x 1230 -y 860 -defaultsOSRD
+preplace inst axi_interconnect_2 -pg 1 -lvl 3 -x 700 -y 1080 -defaultsOSRD
+preplace inst v_tpg_0 -pg 1 -lvl 4 -x 1230 -y 260 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -70 -y 830 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 6 -x 2290 -y 1030 -defaultsOSRD
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 6 -x 2290 -y 1330 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -x 1230 -y 1100 -defaultsOSRD
+preplace inst axis_dwidth_converter_1 -pg 1 -lvl 4 -x 1230 -y 980 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 5 -x 1760 -y 1320 -defaultsOSRD
+preplace inst myproject_0 -pg 1 -lvl 4 -x 1230 -y 1370 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 1 7 30 980 480 820 940 1240 1520 1200 2040 130 2570 790 2910
+preplace netloc xlconstant_0_dout 1 4 3 N 860 2000 940 2540
+preplace netloc proc_sys_reset_0_peripheral_reset 1 2 6 470J 830 910J 1170 1520J 1150 2060 870 2580J 830 2900
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 8 40 530 NJ 530 NJ 530 1510J 210 2020 120 NJ 120 NJ 120 3360
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 5 450 810 950 1210 1510 1210 2050 140 2560
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 5 460 520 NJ 520 1490J 200 2010 110 2590
+preplace netloc rgb2dvi_0_TMDS_Clk_p 1 8 1 NJ 900
+preplace netloc rgb2dvi_0_TMDS_Clk_n 1 8 1 NJ 920
+preplace netloc rgb2dvi_0_TMDS_Data_p 1 8 1 NJ 940
+preplace netloc rgb2dvi_0_TMDS_Data_n 1 8 1 NJ 960
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 -230 540 NJ 540 NJ 540 NJ 540 1500J 190 2000 100 NJ 100 NJ 100 3370
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 5 3 2070 880 2590J 840 2890
+preplace netloc xlconstant_1_dout 1 3 2 970 1190 1490
+preplace netloc processing_system7_0_FIXED_IO 1 8 1 NJ 620
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 6 1 N 290
+preplace netloc axi_interconnect_2_M02_AXI 1 3 1 900 60n
+preplace netloc axi_interconnect_2_M01_AXI 1 3 3 920 550 NJ 550 2030
+preplace netloc processing_system7_0_DDR 1 8 1 NJ 600
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 7 1 N 900
+preplace netloc S01_AXI_1 1 6 1 2540 570n
+preplace netloc axi_interconnect_2_M00_AXI 1 3 3 930 640 NJ 640 N
+preplace netloc axi_dma_0_M_AXI_MM2S 1 6 1 2530 550n
+preplace netloc v_tpg_0_m_axis_video 1 4 2 1520 220 N
+preplace netloc axi_interconnect_1_M00_AXI 1 7 1 2910 360n
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 6 1 2550 310n
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 6 1 N 270
+preplace netloc axi_interconnect_0_M00_AXI 1 7 1 N 640
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 7 490 800 NJ 800 NJ 800 2010 860 2540J 820 NJ 820 3350
+preplace netloc v_tc_0_vtiming_out 1 6 1 2530 920n
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 3 4 970 1160 NJ 1160 N 1160 2510
+preplace netloc axis_subset_converter_0_M_AXIS 1 5 1 2010J 1280n
+preplace netloc axis_dwidth_converter_0_M_AXIS 1 5 2 2070 520 2520
+preplace netloc myproject_0_layer17_out 1 4 1 1490 1270n
+preplace netloc axis_dwidth_converter_1_M_AXIS 1 3 2 960 1180 1500
+levelinfo -pg 1 -250 -70 270 700 1230 1760 2290 2740 3130 3390
+pagesize -pg 1 -db -bbox -sgen -250 0 3590 1590
+"
+}
+0

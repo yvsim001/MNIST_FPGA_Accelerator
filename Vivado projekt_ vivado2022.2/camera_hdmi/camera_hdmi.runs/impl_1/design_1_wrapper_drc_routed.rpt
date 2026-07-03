@@ -1,0 +1,631 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Fri Jul  3 00:01:04 2026
+| Host         : yvan-B550-GAMING-X-V2 running 64-bit Ubuntu 22.04.5 LTS
+| Command      : report_drc -file design_1_wrapper_drc_routed.rpt -pb design_1_wrapper_drc_routed.pb -rpx design_1_wrapper_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 118
++-----------+----------+------------------------+------------+
+| Rule      | Severity | Description            | Violations |
++-----------+----------+------------------------+------------+
+| DPIP-1    | Warning  | Input pipelining       | 100        |
+| DPOP-1    | Warning  | PREG Output pipelining | 4          |
+| DPOP-2    | Warning  | MREG Output pipelining | 7          |
+| RTSTAT-10 | Warning  | No routable loads      | 1          |
+| REQP-165  | Advisory | writefirst             | 2          |
+| REQP-181  | Advisory | writefirst             | 4          |
++-----------+----------+------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_12_reg_3061_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_12_reg_3061_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_13_reg_3066_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_13_reg_3066_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_16_reg_3071_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_16_reg_3071_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_17_reg_3076_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_17_reg_3076_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_1_reg_3036_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_1_reg_3036_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_20_reg_3081_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_20_reg_3081_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_21_reg_3086_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_21_reg_3086_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_24_reg_3091_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_24_reg_3091_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_25_reg_3096_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_25_reg_3096_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_28_reg_3101_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_28_reg_3101_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_29_reg_3106_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_29_reg_3106_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_4_reg_3041_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_4_reg_3041_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_5_reg_3046_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_5_reg_3046_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_8_reg_3051_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_8_reg_3051_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_9_reg_3056_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_9_reg_3056_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_reg_3031_reg input design_1_i/myproject_0/inst/conv_2d_cl_array_ap_ufixed_4u_array_ap_fixed_19_8_5_3_0_8u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_19_8_5_3_0_8u_config6_s_fu_158/grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_19_8_5_3_0_config6_mult_s_fu_281/add_ln813_reg_3031_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_163_reg_2520_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_163_reg_2520_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_165_reg_2525_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_165_reg_2525_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_167_reg_2530_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_167_reg_2530_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_169_reg_2535_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_169_reg_2535_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_171_reg_2540_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_171_reg_2540_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_173_reg_2545_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_173_reg_2545_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_175_reg_2550_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_175_reg_2550_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#24 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_177_reg_2555_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_177_reg_2555_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#25 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_179_reg_2560_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_179_reg_2560_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#26 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_reg_2515_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_32u_array_ap_fixed_16_5_0_0_0_10u_config15_U0/add_ln813_reg_2515_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#27 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_102_reg_8186_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_102_reg_8186_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#28 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_103_reg_8191_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_103_reg_8191_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#29 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_106_reg_8196_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_106_reg_8196_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#30 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_107_reg_8201_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_107_reg_8201_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#31 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_110_reg_8206_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_110_reg_8206_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#32 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_111_reg_8211_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_111_reg_8211_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#33 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_114_reg_8216_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_114_reg_8216_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#34 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_115_reg_8221_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_115_reg_8221_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#35 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_118_reg_8226_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_118_reg_8226_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#36 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_119_reg_8231_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_119_reg_8231_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#37 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_122_reg_8236_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_122_reg_8236_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#38 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_123_reg_8241_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_123_reg_8241_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#39 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_126_reg_8246_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_126_reg_8246_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#40 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_127_reg_8251_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_127_reg_8251_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#41 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_130_reg_8256_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_130_reg_8256_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#42 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_131_reg_8261_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_131_reg_8261_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#43 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_134_reg_8266_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_134_reg_8266_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#44 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_135_reg_8271_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_135_reg_8271_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#45 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_138_reg_8276_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_138_reg_8276_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#46 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_139_reg_8281_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_139_reg_8281_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#47 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_142_reg_8286_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_142_reg_8286_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#48 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_143_reg_8291_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_143_reg_8291_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#49 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_146_reg_8296_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_146_reg_8296_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#50 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_147_reg_8301_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_147_reg_8301_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#51 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_150_reg_8306_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_150_reg_8306_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#52 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_151_reg_8311_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_151_reg_8311_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#53 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_154_reg_8316_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_154_reg_8316_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#54 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_155_reg_8321_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_155_reg_8321_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#55 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_158_reg_8326_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_158_reg_8326_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#56 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_159_reg_8331_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_159_reg_8331_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#57 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_35_reg_8021_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_35_reg_8021_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#58 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_38_reg_8026_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_38_reg_8026_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#59 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_39_reg_8031_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_39_reg_8031_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#60 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_42_reg_8036_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_42_reg_8036_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#61 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_43_reg_8041_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_43_reg_8041_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#62 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_46_reg_8046_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_46_reg_8046_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#63 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_47_reg_8051_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_47_reg_8051_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#64 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_50_reg_8056_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_50_reg_8056_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#65 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_51_reg_8061_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_51_reg_8061_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#66 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_54_reg_8066_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_54_reg_8066_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#67 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_55_reg_8071_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_55_reg_8071_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#68 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_58_reg_8076_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_58_reg_8076_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#69 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_59_reg_8081_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_59_reg_8081_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#70 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_62_reg_8086_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_62_reg_8086_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#71 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_63_reg_8091_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_63_reg_8091_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#72 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_66_reg_8096_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_66_reg_8096_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#73 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_67_reg_8101_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_67_reg_8101_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#74 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_70_reg_8106_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_70_reg_8106_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#75 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_71_reg_8111_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_71_reg_8111_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#76 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_74_reg_8116_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_74_reg_8116_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#77 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_75_reg_8121_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_75_reg_8121_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#78 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_78_reg_8126_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_78_reg_8126_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#79 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_79_reg_8131_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_79_reg_8131_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#80 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_82_reg_8136_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_82_reg_8136_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#81 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_83_reg_8141_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_83_reg_8141_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#82 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_86_reg_8146_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_86_reg_8146_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#83 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_87_reg_8151_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_87_reg_8151_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#84 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_90_reg_8156_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_90_reg_8156_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#85 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_91_reg_8161_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_91_reg_8161_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#86 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_94_reg_8166_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_94_reg_8166_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#87 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_95_reg_8171_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_95_reg_8171_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#88 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_98_reg_8176_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_98_reg_8176_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#89 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_99_reg_8181_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_99_reg_8181_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#90 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_reg_8016_reg input design_1_i/myproject_0/inst/dense_array_ap_ufixed_8u_array_ap_fixed_18_7_5_3_0_32u_config11_U0/add_ln813_reg_8016_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#91 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#92 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#93 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#94 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg input design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#95 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg input design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#96 Warning
+Input pipelining  
+DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg input design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#97 Warning
+Input pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_16s_16s_16ns_16_4_1_U41/design_1_v_tpg_0_0_mac_muladd_16s_16s_16ns_16_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_16s_16s_16ns_16_4_1_U41/design_1_v_tpg_0_0_mac_muladd_16s_16s_16ns_16_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#98 Warning
+Input pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_5ns_16ns_17_4_1_U48/design_1_v_tpg_0_0_mac_muladd_8ns_5ns_16ns_17_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_5ns_16ns_17_4_1_U48/design_1_v_tpg_0_0_mac_muladd_8ns_5ns_16ns_17_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#99 Warning
+Input pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8ns_15ns_16_4_1_U46/design_1_v_tpg_0_0_mac_muladd_8ns_8ns_15ns_16_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8ns_15ns_16_4_1_U46/design_1_v_tpg_0_0_mac_muladd_8ns_8ns_15ns_16_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#100 Warning
+Input pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8s_16s_16_4_1_U47/design_1_v_tpg_0_0_mac_muladd_8ns_8s_16s_16_4_1_DSP48_0_U/p_reg_reg input design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mac_muladd_8ns_8s_16s_16_4_1_U47/design_1_v_tpg_0_0_mac_muladd_8ns_8s_16s_16_4_1_DSP48_0_U/p_reg_reg/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product output design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg multiplier stage design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U350/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg multiplier stage design_1_i/myproject_0/inst/normalize_array_ap_fixed_32u_array_ap_fixed_35_13_5_3_0_32u_config13_U0/mul_18s_16ns_33_2_1_U351/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg multiplier stage design_1_i/myproject_0/inst/softmax_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_U0/grp_softmax_stable_array_array_ap_fixed_16_5_5_3_0_10u_softmax_config17_s_fu_26/mul_18s_17ns_25_2_1_U385/dout_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U27/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U28/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_11ns_13ns_23_1_1_U29/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product multiplier stage design_1_i/v_tpg_0/inst/grp_v_tpgHlsDataFlow_fu_439/tpgBackground_U0/grp_tpgBackground_Pipeline_VITIS_LOOP_565_2_fu_484/mul_20s_9ns_28_1_1_U33/tmp_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+66 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_READ.USE_SPLIT_R.read_addr_inst/USE_R_CHANNEL.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_0/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, design_1_i/axi_interconnect_1/m00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i (the first 15 of 42 listed).
+Related violations: <none>
+
+REQP-165#1 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-165#2 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#1 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#2 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#3 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#4 Advisory
+writefirst  
+Synchronous clocking is detected for BRAM (design_1_i/axi_vdma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+

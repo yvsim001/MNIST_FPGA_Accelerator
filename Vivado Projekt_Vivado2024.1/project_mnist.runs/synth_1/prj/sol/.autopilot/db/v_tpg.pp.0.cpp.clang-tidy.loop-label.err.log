@@ -1,0 +1,3 @@
+26 errors generated.
+Error while processing C:\work\project_mnist\project_mnist.runs\synth_1\prj\sol\.autopilot\db\v_tpg.pp.0.cpp.
+clang-tidy applied 372 of 372 suggested fixes.
