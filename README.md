@@ -1,0 +1,2 @@
+# MNIST_FPGA_Accelerator
+# PYNQ-Z1 — USB-Kamera-zu-HDMI-Videopipeline (720p)  Projekt **PA2** — Masterstudiengang Informationstechnik / Embedded Systems, FH Dortmund. Hardware-Videopipeline auf PYNQ-Z1 (Zynq-7020): Erfassung von einer USB-Kamera, Übertragung in DDR, 720p-HDMI-Ausgabe über eine benutzerdefinierte AXI-Stream-Kette. Geplanter nächster Schritt: Einbindung einer MobileNetV2-Inferenz-IP (Personenerkennung) in die Pipeline.  
