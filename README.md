@@ -3,7 +3,7 @@
 Projekt **PA2** — Masterstudiengang Informationstechnik / Embedded Systems, FH Dortmund.
 Hardware-Videopipeline auf PYNQ-Z1 (Zynq-7020): Erfassung von einer USB-Kamera,
 Übertragung in DDR, 720p-HDMI-Ausgabe über eine benutzerdefinierte AXI-Stream-Kette.
-Geplanter nächster Schritt: Einbindung einer MobileNetV2-Inferenz-IP (Personenerkennung)
+Geplanter nächster Schritt: Einbindung einer CustomCNN-Inferenz-IP (Ziffernerkennung)
 in die Pipeline.
 
 ---
@@ -42,3 +42,5 @@ in die Pipeline.
    HD
 
 video: https://www.dropbox.com/scl/fo/gzxie7k1nanrr3hpr6rd7/AMG5MjdmiCBQlXbfzkF2yn0?rlkey=l34ntfky6wqut64bsefi1xkzw&st=qn9n5n9q&dl=0
+
+[Video _Test](https://www.dropbox.com/scl/fo/gzxie7k1nanrr3hpr6rd7/AMG5MjdmiCBQlXbfzkF2yn0?rlkey=l34ntfky6wqut64bsefi1xkzw&st=qn9n5n9q&dl=0)
